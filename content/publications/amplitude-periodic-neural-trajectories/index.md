@@ -22,6 +22,10 @@ publication:
 peer_reviewed: true
 open_access: true
 featured: true
+profile: false
+
+abstract: |
+  Rhythmic movements require precisely timed motor commands. We recorded neural activity from the medial premotor cortex of macaques performing rhythmic tapping tasks. Population activity formed periodic neural trajectories whose radii increased with the target interval while their rotational speed remained relatively constant. The amplitude of these trajectories predicted the produced intervals and captured timing variability, suggesting that rhythmic tempo is encoded through the amplitude of population-level neural dynamics.
 
 summary: "Neural population dynamics in the medial premotor cortex encode the tempo of rhythmic tapping through changes in the amplitude of periodic neural trajectories."
 
