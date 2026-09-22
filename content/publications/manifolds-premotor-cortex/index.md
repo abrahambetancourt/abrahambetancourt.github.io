@@ -40,8 +40,6 @@ hugoblox:
     doi: "10.1111/nyas.70259"
 
 links:
-  - type: source
-    url: "https://doi.org/10.1111/nyas.70259"
   - type: pdf
     url: "https://nyaspubs.onlinelibrary.wiley.com/doi/pdf/10.1111/nyas.70259"
 ---
