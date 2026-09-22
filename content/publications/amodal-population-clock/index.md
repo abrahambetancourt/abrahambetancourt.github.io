@@ -42,8 +42,6 @@ hugoblox:
     pubmed: "37838944"
 
 links:
-  - type: source
-    url: "https://doi.org/10.1016/j.celrep.2023.113234"
   - type: pdf
     url: "https://www.cell.com/cell-reports/pdf/S2211-1247(23)01246-9.pdf"
 ---
