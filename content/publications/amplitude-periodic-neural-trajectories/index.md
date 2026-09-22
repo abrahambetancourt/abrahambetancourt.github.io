@@ -40,8 +40,6 @@ hugoblox:
     doi: "10.1371/journal.pbio.3000054"
 
 links:
-  - type: source
-    url: "https://doi.org/10.1371/journal.pbio.3000054"
   - type: pdf
     url: "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3000054&type=printable"
 ---
