@@ -96,11 +96,21 @@ experience:
     summary: |
       Responsibilities included:
 
-      - Teaching Computational Neuroscience, Orthosis and Prosthesis to science and engineering students.
-        - Designing syllabi.
+      - Teaching Computational Neuroscience, Orthosis and Prosthesis to undergraduate students.
+        - Syllabus design.
         - Preparing lectures and course materials.
         - Designing assignments and assessing student work.
+  - role: Lecturer
+    org: Universidad Politécnica de Querétaro, Querétaro, México.
+    start: January 2021
+    end: August 2021
+    summary: |
+      Responsibilities included:
 
+      - Teaching Robotics and Embedded System Programming to undergraduate students.
+        - Syllabus design.
+        - Preparing lectures and course materials.
+        - Designing assignments and assessing student work.
   
    
    #    org: Meta AI
