@@ -33,6 +33,17 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+
+   - block: resume-skills
+    content:
+      title: Skills
+      username: me
+
+  - block: resume-languages
+    content:
+      title: Languages
+      username: me
+    
   - block: markdown
     id: research-industry-experience
     content:
