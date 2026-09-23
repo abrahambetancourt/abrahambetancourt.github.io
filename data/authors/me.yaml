@@ -12,20 +12,20 @@ postnominals:
   - PhD
   - MIEEE
 status:
-  icon: "☕️"
+  icon: ""
 role: Postdoctoral Scholar 
 bio: |
- I am a Postdoctoral Research Scholar in the Richard Andersen Laboratory at Caltech. I have a PhD in
- biomedical sciences.
+ I recently finished my appointment as a Postdoctoral Research Scholar in the Richard Andersen laboratory at the California Institute of Technology (Caltech).
+ I received my PhD in Biomedical Sciences from the National Autonomous University of Mexico (UNAM).
  
- My research focuses on the neural mechanisms underlying motor and cognitive processes and on the development
- of brain–computer interfaces. I investigate these questions using large-scale intracortical recordings
- from Utah arrays implanted in the motor and posterior parietal cortices of individuals with tetraplegia.
+ My research focuses on the neural mechanisms underlying motor and cognitive processes and their application to brain-computer interfaces.
+ To investigate these questions, I analyzed large-scale intracortical recordings from Utah arrays implanted in the motor and posterior parietal cortices of individuals with tetraplegia.
 
 
-affiliations:
-  - name: Caltech
-    url: https://www.caltech.edu/
+
+#affiliations:
+#  - name: Caltech
+#    url: https://www.caltech.edu/
 
 links:
   - icon: at-symbol
@@ -69,7 +69,8 @@ education:
     start: 2007-08-15
     end: 2011-01-05
 
-#experience:
+experience:
+  -role: Research
 #  - role: Senior AI Research Scientist
 #    org: Meta AI
 #    start: 2020-01-01
