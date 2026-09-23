@@ -92,14 +92,15 @@ experience:
   - role: Lecturer
     org: Escuela Nacional de Estudios Superiores, Unidad Juriquilla, Querétaro
     start: August 2022
-    end: July 2023. Querétaro, México.
+    end: July 2023
     summary: |
-         Responsibilities included:
- 
-        - Teaching Computational Neuroscience, Orthosis and Prosthesis courses to science and engineering students.
-          - Syllabus design
-          - Preparing lectures and course materials.
-          - Designing assignments and assessing student work.
+      Responsibilities included:
+
+      - Teaching Computational Neuroscience, Orthosis and Prosthesis to science and engineering students.
+        - Designing syllabi.
+        - Preparing lectures and course materials.
+        - Designing assignments and assessing student work.
+
   
    
    #    org: Meta AI
