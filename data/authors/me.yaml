@@ -86,7 +86,7 @@ education:
 #    end: 2019-12-31
 #    summary: |
 #      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+<!--
 skills:
   - name: Technical Skills
     items:
@@ -112,7 +112,7 @@ languages:
   - name: Spanish
     level: 4
     label: Fluent
-
+-->
 #awards:
 #  - title: Best Paper Award
 #    awarder: NeurIPS
