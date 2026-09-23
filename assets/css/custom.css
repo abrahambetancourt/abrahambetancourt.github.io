@@ -1,0 +1,3 @@
+.resume-biography .md\:col-span-8 > .mb-12:first-child > .flex > .flex-shrink-0 {
+  display: none;
+}
