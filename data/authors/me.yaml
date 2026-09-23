@@ -89,20 +89,18 @@ experience:
     button:  
       text: Storecheck
       url:  https://www.storecheck.com/
-    - role: Lecturer
-      org: Escuela Nacional de Estudios Superiores, Unidad Juriquilla, Querétaro
-      start: August 2022
-      end: July 2023. Querétaro, México.
-      summary: |
+  - role: Lecturer
+    org: Escuela Nacional de Estudios Superiores, Unidad Juriquilla, Querétaro
+    start: August 2022
+    end: July 2023. Querétaro, México.
+    summary: |
          Responsibilities included:
  
-      - Teaching Computational Neuroscience, Orthosis and Prosthesis courses to science and engineering students.
-        - Syllabus design
-        - Preparing lectures and course materials.
-        - Designing assignments and assessing student work.
-      button:  
-       text: Storecheck
-       url:  https://www.storecheck.com/
+        - Teaching Computational Neuroscience, Orthosis and Prosthesis courses to science and engineering students.
+          - Syllabus design
+          - Preparing lectures and course materials.
+          - Designing assignments and assessing student work.
+  
    
    #    org: Meta AI
 #    start: 2020-01-01
