@@ -70,17 +70,19 @@ education:
     end: 2011-01-05
 
 experience:
-  - role: Postdoctoral Research Scholar - Richard Andersen Laboratory
-    org: California Institute of Technology, Pasadena CA.
+  - role: Postdoctoral Research Scholar
+    org: California Institute of Technology - Richard Andersen Laboratory.
     button:
       text: Caltech
       url: https://www.caltech.edu/
     start: August 2023
-    end: August 2026.
+    end: August 2026. Pasadena CA.
+    summary: |
+      Develop neural decoding algorithms for intracortical BCIs using Utah array recordings from tetraplegic human participants.
   - role: Data Scientist
-    org: Storecheck,  Querétaro, México.
+    org: Storecheck
     start: August 2022
-    end: July 2023.
+    end: July 2023. Querétaro, México.
     summary: |
       Designed and implemented an end-to-end data pipeline from scratch using Python and MySQL to extract, clean, transform,
       and analyze large-scale retail and supply chain data (COCA-COLA LATIN-AMERICA).
