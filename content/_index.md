@@ -33,13 +33,32 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: resume-experience
-    id: experience
+    
+  - block: markdown
+    id: research-industry-experience
     content:
-      title: Experience
-      username: me
+      title: Experience (Research & Industry)
+      text: |-
+        ### Postdoctoral Research Scholar
+        **California Institute of Technology · Richard Andersen Laboratory**  
+        *[August 2023] – [August 2026]*
+
+        Investigated motor and cognitive processes using intracortical recordings from motor and posterior parietal cortex in individuals with tetraplegia.
     design:
-      is_education_first: false    
+      columns: '1'
+
+  - block: markdown
+    id: teaching-experience
+    content:
+      title: Experience (Teaching)
+      text: |-
+        ### Lecturer
+        **Escuela Nacional de Estudios Superiores, Unidad Juriquilla, Querétaro**  
+        *August 2021 – July 2023*
+
+        [Brief description of what you taught or supervised.]
+    design:
+      columns: '1'  
 #  - block: markdown
 #    content:
 #      title: '📚 My Research'
