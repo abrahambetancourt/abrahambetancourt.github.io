@@ -71,7 +71,7 @@ education:
 
 experience:
   -role: Research
-#  - role: Senior AI Research Scientist
+   - role: Senior AI Research Scientist
 #    org: Meta AI
 #    start: 2020-01-01
 #    summary: |
