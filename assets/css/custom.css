@@ -36,21 +36,28 @@
   display: none;
 }
 
-/* Remove the glow and briefcase icons */
+/* Thin timeline line */
+#section-resume-experience .space-y-8 {
+  position: relative;
+}
+
+/* Remove glow and briefcase */
 #section-resume-experience .space-y-8 > .group > .absolute > .relative > div:first-child,
 #section-resume-experience .space-y-8 > .group > .absolute svg {
   display: none;
 }
 
-/* Hollow timeline dots */
+/* Hollow dots, centered on the existing line */
 #section-resume-experience .space-y-8 > .group > .absolute > .relative > div:nth-child(2) {
-  width: 18px;
-  height: 18px;
-  background: white;
-  border: 2px solid #5555ff;
+  width: 20px;
+  height: 20px;
+  transform: translateX(6px);
+  border: 1.5px solid #2166bd;
+  background: #fff;
+  box-shadow: none;
 }
 
-/* Filled dot for the first, most recent job */
+/* Most recent job: filled dot */
 #section-resume-experience .space-y-8 > .group:first-child > .absolute > .relative > div:nth-child(2) {
-  background: #5555ff;
+  background: #2166bd;
 }
