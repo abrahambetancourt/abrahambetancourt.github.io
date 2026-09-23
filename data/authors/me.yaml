@@ -69,10 +69,10 @@ education:
     start: 2007-08-15
     end: 2011-01-05
 
-experience:
-  -role: Research
-   - role: Senior AI Research Scientist
-#    org: Meta AI
+#experience:
+#  - role: Postdoctoral Research Scholar
+#    org: California Institute of Technology, Richard Andersen Laboratory
+   #    org: Meta AI
 #    start: 2020-01-01
 #    summary: |
 #      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
