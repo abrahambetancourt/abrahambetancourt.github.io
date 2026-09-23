@@ -69,9 +69,11 @@ education:
     start: 2007-08-15
     end: 2011-01-05
 
-#experience:
-#  - role: Postdoctoral Research Scholar
-#    org: California Institute of Technology, Richard Andersen Laboratory
+experience:
+  - role: Postdoctoral Research Scholar
+    org: California Institute of Technology, Richard Andersen Laboratory
+    start: August 2023
+    end: August 2026
    #    org: Meta AI
 #    start: 2020-01-01
 #    summary: |
@@ -86,33 +88,33 @@ education:
 #    end: 2019-12-31
 #    summary: |
 #      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-<!--
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
 
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
--->
+#skills:
+#  - name: Technical Skills
+#    items:
+#      - label: Python
+#        level: 5
+#      - label: Machine Learning
+#        level: 5
+#      - label: Cloud Computing
+#        level: 4
+#  - name: Research & Communication
+#    items:
+#      - label: Academic Writing
+#        level: 5
+#      - label: Conference Presentations
+#        level: 4
+#      - label: Grant Proposals
+#        level: 4
+
+#languages:
+#  - name: English
+#    level: 5
+#    label: Native
+#  - name: Spanish
+#    level: 4
+#    label: Fluent
+
 #awards:
 #  - title: Best Paper Award
 #    awarder: NeurIPS
