@@ -17,6 +17,11 @@
   gap: 4px;
 }
 
+#section-resume-experience .space-y-8 .prose {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 #section-resume-experience h3 {
   color: #111827;
   font-size: 1.1rem;
