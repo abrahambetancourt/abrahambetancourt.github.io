@@ -78,9 +78,14 @@ experience:
     start: August 2023
     end: August 2026. Pasadena, CA
   - role: Data Scientist
-    org: California Institute of Technology, Richard Andersen Laboratory
+    org: Storecheck
     start: August 2022
-    end: July 2023
+    end: July 2023. Querétaro, México.
+     summary: |
+      Designed and implemented an end-to-end data pipeline from scratch using Python and MySQL to extract, clean, transform, and analyze large-scale retail and supply chain data (COCA-COLA LATIN-AMERICA).
+    text: Storecheck
+    url:  https://www.storecheck.com/
+ 
    #    org: Meta AI
 #    start: 2020-01-01
 #    summary: |
