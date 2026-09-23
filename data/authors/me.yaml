@@ -100,6 +100,9 @@ experience:
         - Syllabus design.
         - Preparing lectures and course materials.
         - Designing assignments and assessing student work.
+    button:  
+      text: ENES
+      url:  https://www.enesjuriquilla.unam.mx/  
   - role: Lecturer
     org: Universidad Politécnica de Querétaro, Querétaro, México.
     start: January 2021
@@ -111,6 +114,9 @@ experience:
         - Syllabus design.
         - Preparing lectures and course materials.
         - Designing assignments and assessing student work.
+    button:  
+      text: UPQ
+      url:  https://www.upq.mx/#/   
   
    
    #    org: Meta AI
