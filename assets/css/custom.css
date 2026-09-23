@@ -31,3 +31,7 @@
 #section-resume-experience time {
   color: #687382;
 }
+
+#papers [role="article"] > div:first-child {
+  display: none;
+}
