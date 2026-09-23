@@ -42,13 +42,6 @@ sections:
   - block: markdown
     id: research-industry-experience
     content:
-
-  - block: markdown
-    id: research-industry-experience
-
-  - block: markdown
-    id: research-industry-experience
-    content:
       title: Experience (Research & Industry)
       text: |-
         <div style="max-width: 850px; margin: 1.5rem auto; padding-left: 46px; border-left: 2px solid #3b70c4; position: relative;">
