@@ -20,6 +20,18 @@ sections:
         education: ''
         interests: ''
     design:
+ - block: resume-skills
+    content:
+      title: Skills
+      username: me
+
+  - block: resume-languages
+    content:
+      title: Languages
+      username: me
+
+  - block: markdown
+    id: research-industry-experience
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
