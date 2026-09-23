@@ -70,23 +70,24 @@ education:
     end: 2011-01-05
 
 experience:
-  - role: Postdoctoral Research Scholar
-    org: California Institute of Technology - Richard Andersen Laboratory
+  - role: Postdoctoral Research Scholar - Richard Andersen Laboratory
+    org: California Institute of Technology, Pasadena CA.
     button:
       text: Caltech
       url: https://www.caltech.edu/
     start: August 2023
-    end: August 2026. Pasadena, CA
+    end: August 2026.
   - role: Data Scientist
-    org: Storecheck
+    org: Storecheck,  Querétaro, México.
     start: August 2022
-    end: July 2023. Querétaro, México.
+    end: July 2023.
     summary: |
       Designed and implemented an end-to-end data pipeline from scratch using Python and MySQL to extract, clean, transform,
       and analyze large-scale retail and supply chain data (COCA-COLA LATIN-AMERICA).
-    text: Storecheck
-    url:  https://www.storecheck.com/
- 
+    button:  
+      text: Storecheck
+      url:  https://www.storecheck.com/
+   
    #    org: Meta AI
 #    start: 2020-01-01
 #    summary: |
