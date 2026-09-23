@@ -50,6 +50,8 @@ sections:
             California Institute of Technology · Richard Andersen Laboratory<br>
             <small>August 2023 – August 2026 · Pasadena, CA</small>
             <p style="margin-bottom: 0;">Investigated motor and cognitive processes using intracortical recordings from motor and posterior parietal cortex in individuals with tetraplegia.</p>
+         </div>
+        </div>
     design:
       columns: '1'
 
@@ -65,6 +67,8 @@ sections:
             Escuela Nacional de Estudios Superiores, Unidad Juriquilla, Querétaro<br>
             <small>August 2021 – July 2023</small>
             <p style="margin-bottom: 0;">Add a brief description of your teaching responsibilities here.</p>
+          </div>
+        </div>
      # text: |-
      #   ### Lecturer
      #   **Escuela Nacional de Estudios Superiores, Unidad Juriquilla, Querétaro**  
