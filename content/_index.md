@@ -38,12 +38,18 @@ sections:
     id: research-industry-experience
     content:
       title: Experience (Research & Industry)
-      text: |-
-        ### Postdoctoral Research Scholar
-        **California Institute of Technology · Richard Andersen Laboratory**  
-        *[August 2023] – [August 2026]*
-
-        Investigated motor and cognitive processes using intracortical recordings from motor and posterior parietal cortex in individuals with tetraplegia.
+      # text: |-
+      #  ### Postdoctoral Research Scholar
+      #  **California Institute of Technology · Richard Andersen Laboratory**  
+      #  *August 2023 – August 2026*
+       text: |-
+        <div style="max-width: 850px; margin: 1.5rem auto; padding-left: 46px; border-left: 2px solid #3b70c4; position: relative;">
+          <span style="position: absolute; left: -11px; top: 35px; width: 20px; height: 20px; border: 2px solid #3b70c4; border-radius: 50%; background: white;"></span>
+          <div style="padding: 1.5rem 2rem; border: 1px solid #ddd; border-radius: 5px; box-shadow: 0 3px 7px rgba(0,0,0,.12);">
+            <strong>Postdoctoral Research Scholar</strong><br>
+            California Institute of Technology · Richard Andersen Laboratory<br>
+            <small>August 2023 – August 2026 · Pasadena, CA</small>
+            <p style="margin-bottom: 0;">Investigated motor and cognitive processes using intracortical recordings from motor and posterior parietal cortex in individuals with tetraplegia.</p>
     design:
       columns: '1'
 
@@ -51,12 +57,20 @@ sections:
     id: teaching-experience
     content:
       title: Experience (Teaching)
-      text: |-
-        ### Lecturer
-        **Escuela Nacional de Estudios Superiores, Unidad Juriquilla, Querétaro**  
-        *August 2021 – July 2023*
+    text: |-
+        <div style="max-width: 850px; margin: 1.5rem auto; padding-left: 46px; border-left: 2px solid #3b70c4; position: relative;">
+          <span style="position: absolute; left: -11px; top: 35px; width: 20px; height: 20px; border: 2px solid #3b70c4; border-radius: 50%; background: white;"></span>
+          <div style="padding: 1.5rem 2rem; border: 1px solid #ddd; border-radius: 5px; box-shadow: 0 3px 7px rgba(0,0,0,.12);">
+            <strong>Lecturer</strong><br>
+            Escuela Nacional de Estudios Superiores, Unidad Juriquilla, Querétaro<br>
+            <small>August 2021 – July 2023</small>
+            <p style="margin-bottom: 0;">Add a brief description of your teaching responsibilities here.</p>
+     # text: |-
+     #   ### Lecturer
+     #   **Escuela Nacional de Estudios Superiores, Unidad Juriquilla, Querétaro**  
+     #   *August 2021 – July 2023*
 
-        [Brief description of what you taught or supervised.]
+     #   [Brief description of what you taught or supervised.]
     design:
       columns: '1'  
 #  - block: markdown
