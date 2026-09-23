@@ -35,3 +35,22 @@
 #papers [role="article"] > div:first-child {
   display: none;
 }
+
+/* Remove the glow and briefcase icons */
+#section-resume-experience .space-y-8 > .group > .absolute > .relative > div:first-child,
+#section-resume-experience .space-y-8 > .group > .absolute svg {
+  display: none;
+}
+
+/* Hollow timeline dots */
+#section-resume-experience .space-y-8 > .group > .absolute > .relative > div:nth-child(2) {
+  width: 18px;
+  height: 18px;
+  background: white;
+  border: 2px solid #5555ff;
+}
+
+/* Filled dot for the first, most recent job */
+#section-resume-experience .space-y-8 > .group:first-child > .absolute > .relative > div:nth-child(2) {
+  background: #5555ff;
+}
