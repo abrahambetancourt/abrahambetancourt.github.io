@@ -5,3 +5,28 @@
 #section-resume-experience .gap-16 > .w-full:nth-child(2) {
   display: none;
 }
+
+/* Experience cards */
+#section-resume-experience .space-y-8 > .group > .relative.bg-white {
+  padding: 24px 28px;
+}
+
+#section-resume-experience .space-y-8 > .group > .relative.bg-white > .flex {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+#section-resume-experience h3 {
+  color: #5b6470;
+  font-size: 1.1rem;
+}
+
+#section-resume-experience h3 + p {
+  color: #242b35;
+  margin-top: 2px;
+}
+
+#section-resume-experience time {
+  color: #687382;
+}
