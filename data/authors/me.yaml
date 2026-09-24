@@ -50,24 +50,24 @@ interests:
   - Neural decoding
 
 education:
-  - degree: PhD in Biomedical Sciences
+  - degree: PhD in Biomedical Sciences, 2023
     institution: National Autonomous University of Mexico
-    start: 2016-01-05
-    end: 2023-04-22
+    #start: 2016-01-05
+    #end: 2023-04-22
     #summary: |
       #Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     #button:
     #  text: Download dissertation
     #  url: /resume.pdf
     #  icon: hero/arrow-down-tray
-  - degree: M.Eng
+  - degree: M.Eng, 2013
     institution: Universidad Politécnica de Victoria
-    start: 2011-04-10
-    end: 2013-10-23
-  - degree: BS in Mechatronics Engineering
+    #start: 2011-04-10
+    #end: 2013-10-23
+  - degree: BS in Mechatronics Engineering,2010
     institution: Universidad Politécnica de Victoria
-    start: 2007-08-15
-    end: 2011-01-05
+    #start: 2007-08-15
+    #end: 2011-01-05
 
 experience:
   - role: Postdoctoral Research Scholar
