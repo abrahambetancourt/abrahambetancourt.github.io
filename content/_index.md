@@ -79,7 +79,6 @@ sections:
           <div class="contact-details">
             <p><span aria-hidden="true">✉</span> <a href="mailto:azahel90@caltech.edu">azahel90@caltech.edu</a></p>
             <p><span aria-hidden="true">↗</span> <a href="https://www.linkedin.com/in/abraham-betancourt-832133299/">LinkedIn</a></p>
-            <p><span aria-hidden="true">↗</span> <a href="https://scholar.google.com/citations?user=H6bjByAAAAAJ">Google Scholar</a></p>
           </div>
         </div>
     design:
