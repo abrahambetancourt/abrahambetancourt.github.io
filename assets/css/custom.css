@@ -9,9 +9,9 @@
 /* Experience cards */
 #section-resume-experience .space-y-8 > .group > .relative.bg-white {
   width: 100%;
-  max-width: 650px;
+  max-width: 750px;
   /*padding: 24px 28px;*/
-  padding: 18px 30px;
+  padding: 18px 22px;
 }
 
 #section-resume-experience .space-y-8 > .group + .group {
