@@ -8,7 +8,14 @@
 
 /* Experience cards */
 #section-resume-experience .space-y-8 > .group > .relative.bg-white {
-  padding: 24px 28px;
+  width: 100%;
+  max-width: 650px;
+  /*padding: 24px 28px;*/
+  padding: 18px 22px;
+}
+
+#section-resume-experience .space-y-8 > .group + .group {
+  margin-top: 24px;
 }
 
 #section-resume-experience .space-y-8 > .group > .relative.bg-white > .flex {
