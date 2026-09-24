@@ -229,7 +229,7 @@
 /* Match the body text across About Me, Education, and Interests */
 .resume-biography .md\:col-span-8 > :nth-child(2) .group p:first-child,
 .resume-biography .md\:col-span-8 > :nth-child(3) .flex.flex-wrap > span {
-  font-size: 1.125rem;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.5;
 }
