@@ -216,3 +216,7 @@
 .resume-biography .md\:col-span-8 > :nth-child(2) .group:hover p:first-child {
   color: inherit;
 }
+
+.resume-biography .bio-text {
+  text-align: justify;
+}
