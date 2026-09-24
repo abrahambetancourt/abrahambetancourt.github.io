@@ -156,3 +156,45 @@
     grid-template-columns: 1fr; /* Stack the three degree cards */
   }
 }
+
+/* Education and Interests: simple list style */
+.resume-biography .md\:col-span-8 > :nth-child(2) > .flex > div:first-child,
+.resume-biography .md\:col-span-8 > :nth-child(3) > .flex > div:first-child,
+.resume-biography .md\:col-span-8 > :nth-child(2) > .grid > .group > .flex > div:first-child {
+  display: none;
+}
+
+/* Remove the Education card backgrounds, borders, and shadows */
+.resume-biography .md\:col-span-8 > :nth-child(2) > .grid > .group {
+  height: auto;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+/* Space the degrees like entries in a CV */
+.resume-biography .md\:col-span-8 > :nth-child(2) > .grid {
+  gap: 1.25rem;
+}
+
+/* Turn Interest pills into a bulleted list */
+.resume-biography .md\:col-span-8 > :nth-child(3) > .flex.flex-wrap {
+  display: block;
+  padding-left: 1.4rem;
+}
+
+.resume-biography .md\:col-span-8 > :nth-child(3) > .flex.flex-wrap > span {
+  display: list-item;
+  list-style-type: disc;
+  width: fit-content;
+  padding: 0;
+  margin-bottom: 0.4rem;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  font-weight: 400;
+}
