@@ -134,3 +134,25 @@
     gap: 1.5rem;
   }
 }
+
+/* Education and Interests side by side on wide screens */
+@media (min-width: 1200px) {
+  .resume-biography .md\:col-span-8 {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+    column-gap: 2rem;
+    align-items: start;
+  }
+
+  .resume-biography .md\:col-span-8 > :first-child {
+    grid-column: 1 / -1; /* About Me stays above both columns */
+  }
+
+  .resume-biography .md\:col-span-8 > :nth-child(2) {
+    margin-bottom: 0;
+  }
+
+  .resume-biography .md\:col-span-8 > :nth-child(2) > .grid {
+    grid-template-columns: 1fr; /* Stack the three degree cards */
+  }
+}
