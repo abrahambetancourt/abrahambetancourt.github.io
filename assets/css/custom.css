@@ -141,8 +141,8 @@
 @media (min-width: 1200px) {
   .resume-biography .md\:col-span-8 {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    column-gap: 2rem;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    column-gap: 1.5rem;
     align-items: start;
   }
 
@@ -218,7 +218,7 @@
 /* Match the body text across About Me, Education, and Interests */
 .resume-biography .md\:col-span-8 > :nth-child(2) .group p:first-child,
 .resume-biography .md\:col-span-8 > :nth-child(3) .flex.flex-wrap > span {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.5;
 }
