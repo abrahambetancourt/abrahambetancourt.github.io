@@ -137,14 +137,22 @@
   }
 }
 
-/* Education and Interests side by side on wide screens */
+/* Education and Interests side by side on wide screens 
 @media (min-width: 1200px) {
   .resume-biography .md\:col-span-8 {
     display: grid;
     grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
     column-gap: 1.5rem;
     align-items: start;
+  }*/
+
+  @media (min-width: 1200px) {
+  .resume-biography .md\:col-span-8 {
+    max-width: 585px;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    column-gap: 1.5rem;
   }
+}
 
   .resume-biography .md\:col-span-8 > :first-child {
     grid-column: 1 / -1; /* About Me stays above both columns */
