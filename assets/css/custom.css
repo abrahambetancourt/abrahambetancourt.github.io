@@ -204,14 +204,6 @@
   font-weight: 400;
 }
 
-/* Match Education entries to the Interests text */
-.resume-biography .md\:col-span-8 > :nth-child(2) .group p:first-child,
-.resume-biography .md\:col-span-8 > :nth-child(3) .flex.flex-wrap > span {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
 /* Keep degree titles from changing color on hover */
 .resume-biography .md\:col-span-8 > :nth-child(2) .group:hover p:first-child {
   color: inherit;
@@ -219,4 +211,28 @@
 
 .resume-biography .bio-text {
   text-align: justify;
+}
+
+/* Match the body text across About Me, Education, and Interests */
+.resume-biography .md\:col-span-8 > :nth-child(2) .group p:first-child,
+.resume-biography .md\:col-span-8 > :nth-child(3) .flex.flex-wrap > span {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Let the degree icons sit to the left of the Education text */
+.resume-biography .md\:col-span-8 > :nth-child(2) > .grid > .group > .flex {
+  position: relative;
+}
+
+.resume-biography .md\:col-span-8 > :nth-child(2) > .grid > .group > .flex > div:first-child {
+  position: absolute;
+  left: -4rem;
+  display: flex; /* keep the graduation-cap icons */
+}
+
+/* Align interest text with its heading; bullets sit outside */
+.resume-biography .md\:col-span-8 > :nth-child(3) > .flex.flex-wrap {
+  padding-left: 0;
 }
