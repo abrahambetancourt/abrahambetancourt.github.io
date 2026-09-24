@@ -40,7 +40,59 @@
   margin-top: 2px;
 }
 
+
+#section-resume-experience time {
+  color: #687382;
+}
+
+#papers [role="article"] > div:first-child {
+  display: none;
+}
+
+/* Thin timeline line */
+#section-resume-experience .space-y-8 {
+  position: relative;
+}
+
+/* Remove glow and briefcase */
+#section-resume-experience .space-y-8 > .group > .absolute > .relative > div:first-child,
+#section-resume-experience .space-y-8 > .group > .absolute svg {
+  display: none;
+}
+
+/* Hollow dots, centered on the existing line */
+#section-resume-experience .space-y-8 > .group > .absolute > .relative > div:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  transform: translateX(6px);
+  border: 1.5px solid #2166bd;
+  background: #fff;
+  box-shadow: none;
+}
+
+/* Most recent job: filled dot */
+#section-resume-experience .space-y-8 > .group:first-child > .absolute > .relative > div:nth-child(2) {
+  background: #2166bd;
+}
+
+/* Hide the calendar icon beside Experience dates */
+#section-resume-experience .space-y-8 > .group > .relative.bg-white .shrink-0 > svg {
+  display: none;
+}
+
 /* Contact section */
+#contact > .flex {
+  width: 100%;
+  max-width: 1024px;
+  box-sizing: border-box;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+#contact > .flex > .prose {
+  width: 100%;
+  max-width: none;
+}
 #contact .contact-layout {
   display: grid;
   grid-template-columns: minmax(180px, 1fr) minmax(0, 2fr);
@@ -81,42 +133,4 @@
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-}
-#section-resume-experience time {
-  color: #687382;
-}
-
-#papers [role="article"] > div:first-child {
-  display: none;
-}
-
-/* Thin timeline line */
-#section-resume-experience .space-y-8 {
-  position: relative;
-}
-
-/* Remove glow and briefcase */
-#section-resume-experience .space-y-8 > .group > .absolute > .relative > div:first-child,
-#section-resume-experience .space-y-8 > .group > .absolute svg {
-  display: none;
-}
-
-/* Hollow dots, centered on the existing line */
-#section-resume-experience .space-y-8 > .group > .absolute > .relative > div:nth-child(2) {
-  width: 20px;
-  height: 20px;
-  transform: translateX(6px);
-  border: 1.5px solid #2166bd;
-  background: #fff;
-  box-shadow: none;
-}
-
-/* Most recent job: filled dot */
-#section-resume-experience .space-y-8 > .group:first-child > .absolute > .relative > div:nth-child(2) {
-  background: #2166bd;
-}
-
-/* Hide the calendar icon beside Experience dates */
-#section-resume-experience .space-y-8 > .group > .relative.bg-white .shrink-0 > svg {
-  display: none;
 }
