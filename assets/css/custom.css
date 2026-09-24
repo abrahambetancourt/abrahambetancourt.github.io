@@ -146,13 +146,16 @@
     align-items: start;
   }*/
 
-  @media (min-width: 1200px) {
+@media (min-width: 900px) {
   .resume-biography .md\:col-span-8 {
-    max-width: 585px;
+    display: grid;
+    width: 100%;
+    max-width: 585px; /* same width as About Me text */
     grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
     column-gap: 1.5rem;
+    align-items: start;
   }
-}
+
 
   .resume-biography .md\:col-span-8 > :first-child {
     grid-column: 1 / -1; /* About Me stays above both columns */
