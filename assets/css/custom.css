@@ -203,3 +203,16 @@
   color: inherit;
   font-weight: 400;
 }
+
+/* Match Education entries to the Interests text */
+.resume-biography .md\:col-span-8 > :nth-child(2) .group p:first-child,
+.resume-biography .md\:col-span-8 > :nth-child(3) .flex.flex-wrap > span {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Keep degree titles from changing color on hover */
+.resume-biography .md\:col-span-8 > :nth-child(2) .group:hover p:first-child {
+  color: inherit;
+}
