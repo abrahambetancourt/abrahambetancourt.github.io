@@ -157,13 +157,18 @@
   }
 }
 
+
 /* Education and Interests: simple list style */
 .resume-biography .md\:col-span-8 > :nth-child(2) > .flex > div:first-child,
-.resume-biography .md\:col-span-8 > :nth-child(3) > .flex > div:first-child,
-.resume-biography .md\:col-span-8 > :nth-child(2) > .grid > .group > .flex > div:first-child {
+.resume-biography .md\:col-span-8 > :nth-child(3) > .flex > div:first-child{
+/*.resume-biography .md\:col-span-8 > :nth-child(2) > .grid > .group > .flex > div:first-child*/ 
   display: none;
 }
 
+.resume-biography .md\:col-span-8 > :nth-child(2) h3,
+.resume-biography .md\:col-span-8 > :nth-child(3) h3 {
+  font-size: 1.875rem;
+}
 /* Remove the Education card backgrounds, borders, and shadows */
 .resume-biography .md\:col-span-8 > :nth-child(2) > .grid > .group {
   height: auto;
