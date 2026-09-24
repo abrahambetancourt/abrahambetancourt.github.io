@@ -141,7 +141,7 @@
 @media (min-width: 1200px) {
   .resume-biography .md\:col-span-8 {
     display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     column-gap: 2rem;
     align-items: start;
   }
@@ -221,4 +221,20 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+}
+
+/* Allow long Education and Interests text to wrap inside each column */
+.resume-biography .md\:col-span-8 > :nth-child(2),
+.resume-biography .md\:col-span-8 > :nth-child(3),
+.resume-biography .md\:col-span-8 > :nth-child(2) .flex-1 {
+  min-width: 0;
+}
+
+.resume-biography .md\:col-span-8 > :nth-child(2) p,
+.resume-biography .md\:col-span-8 > :nth-child(3) .flex.flex-wrap > span {
+  overflow-wrap: break-word;
+}
+
+.resume-biography .md\:col-span-8 > :nth-child(3) .flex.flex-wrap > span {
+  width: auto;
 }
