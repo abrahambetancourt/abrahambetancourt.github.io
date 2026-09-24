@@ -95,8 +95,10 @@
 }
 #contact .contact-layout {
   display: grid;
-  grid-template-columns: minmax(180px, 1fr) minmax(0, 2fr);
-  gap: 2.5rem;
+  grid-template-columns: minmax(0, 520px) minmax(0, 320px);
+  column-gap: 1.5rem;
+  /*grid-template-columns: minmax(180px, 1fr) minmax(0, 2fr);*/
+  /*gap: 2.5rem;*/
   max-width: 1000px;
   margin: 0 auto;
   text-align: left;
